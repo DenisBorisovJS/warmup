@@ -1,3 +1,6 @@
 module.exports = function warmup(temperature) {
-  // your implementation here
+  const fhConst = 32;
+  const multiply = 9/5;
+
+  return (temperature * multiply) + fhConst;
 };
